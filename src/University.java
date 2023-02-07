@@ -5,6 +5,7 @@ public class University {
     private Semaphore semaphore;
 
     public University(int numberOfDesks) {
+
         semaphore = new Semaphore(numberOfDesks, true);
     }
 

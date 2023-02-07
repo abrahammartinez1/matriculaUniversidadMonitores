@@ -9,7 +9,8 @@ public class Student extends Thread {
     public void run() {
         try {
             NIP = university.enroll(this);
-            System.out.println("Student " + this.getId() + " was assigned NIP " + NIP);
+            //System.out.println("Número de estudiante NIP :  " + this.getId() +  NIP);
+            System.out.println("Número de estudiante NIP :  " + NIP);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
